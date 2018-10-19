@@ -17,7 +17,7 @@ angular.module('umbraco')
                     ])
                     .then(function() {
                         var format = function(value) {
-                                return '<i class="' + value.value + '"></i> ' + value.text;
+                                return '<i class="' + value.id + '"></i> ' + value.text;
                             },
                             options = {
                                 formatSelection: format,
