@@ -1,6 +1,7 @@
 Font Awesome Icon Picker
 ==
 _Property Editor for Umbraco 7 (Belle)_ by [Rhythm]
+_Updated for Font Awesome 5.x_ by [Appimal]
 
 Allows for the selection of a Font Awesome icon from a searchable dropdown. The class of the selected Font Awesome icon is saved as the property value. This property editor is particularly useful for allowing users to select icons for navigation items in menus.  
 
