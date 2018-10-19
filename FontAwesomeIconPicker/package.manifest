@@ -1,8 +1,8 @@
 ﻿{
     propertyEditors: [
         {
-                alias: "Rhythm.FontAwesomeIconPicker",
-                name: "Rhythm: Font Awesome Icon Picker",
+                alias: "Apptimal.FontAwesomeIconPicker",
+                name: "Apptimal: Font Awesome Icon Picker",
                 editor: {
                 view: "~/App_Plugins/FontAwesomeIconPicker/fontawesomeiconpicker.html"
                 },
