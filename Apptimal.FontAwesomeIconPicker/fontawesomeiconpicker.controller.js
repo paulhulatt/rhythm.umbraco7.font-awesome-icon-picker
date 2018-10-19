@@ -5,12 +5,12 @@
         });
 
 angular.module('umbraco')
-    .directive('fontAwesomeIconPicker', function(assetsService) {
+    .directive('apptimal.FontAwesomeIconPicker', function(assetsService) {
     return {
         restrict: 'C', //matches class 'font-awesome-icon-picker'
         link: function(scope, el, attrs) {
 
-                var PLUGIN_PATH = "/App_Plugins/FontAwesomeIconPicker";
+                var PLUGIN_PATH = "/App_Plugins/Apptimal.FontAwesomeIconPicker";
 
                 assetsService.load([
                         PLUGIN_PATH + '/vendor/select2/select2.min.js?c=8',
